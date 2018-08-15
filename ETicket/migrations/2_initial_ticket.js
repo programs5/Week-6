@@ -1,5 +1,5 @@
 const Ticket = artifacts.require("Ticket.sol");
 
 module.exports = function(deployer, network) {
-  deployer.deploy(Ticket, "TestContract", "TC-1");
+  deployer.deploy(Ticket, "My_Ticket_ERC721", "Ticket721");
 };
