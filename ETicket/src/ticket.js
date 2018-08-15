@@ -1,4 +1,15 @@
+
 web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/kp7Z0DFPGq7d3S2lIKEz"));
+
+// Checking if Web3 has been injected by the browser (Mist/MetaMask)
+//if (typeof web3 !== 'undefined') {
+//   web3 = new Web3(web3.currentProvider); // Use Mist/MetaMask's provider
+//} else {
+//   console.log('No web3? You should consider trying MetaMask!')
+//   //web3js = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+//}
+
+
 
 var payment_value;
 var contractAddr;
@@ -6,6 +17,10 @@ var privKey;
 var addressFrom;
 var contract;
 var contractAbi;
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

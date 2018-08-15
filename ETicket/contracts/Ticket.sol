@@ -8,9 +8,11 @@ contract Ticket is ERC721Token  {
 
     address owner = 0x937fEbBc45628F1bB2445f3c569B6b5FF05FED9A;
 
+    //
     constructor(string _name, string _symbol)
       ERC721Token(_name, _symbol) public {}
 
+    //
     function createNewToken(string _data) public payable {
         require(msg.value == price);
 
