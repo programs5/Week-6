@@ -1,24 +1,19 @@
 <html>
 <head>
-<script src="lib/web3.min.js"></script>
-<script src="ticket.js"></script>
+   <title>Ticket</title>
+   <script src="lib/web3.min.js"></script>
+   <script src="ticket.js"></script>
+   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<br>
-<p>
-    <b>Sender Private Key:</b><br>
-    <input type="text" size="75" id="private_key" value="0xfd885ba588632dde1bb9ced5cd93f5aaa6c67b9828f493988e749faba8fd5c84">
-</p>
-<p>
-    <b>Contract Address:</b><br>
-    <input type="text" size="45" id="contract_address" value="0x0c22320FabEC1E1c38Ab700B1a3C4a2ddBDd5D8D">
-</p>
-<p>
-    <b>Value (ETH):</b><br>
-    <input type="text" size="10" id="payment_value" value="0.01">
-</p>
-<button onClick="getTocken()">getTocken</button>
-<br><br>
-<div style="color:green" id="log"/>
+<body >
+   <div id="commonPage">
+   <div id="ticketBox">
+      <br>
+      <p><b>Buy a ticket (10 finney):</b></p>
+      <p>name:<br><input type="text" size="30" id="usr_name" value=""></p>
+      <p>e-mail:<br><input type="text" size="30" id="usr_mail" value=""></p>
+      <button onClick="buyTicket()">Buy a Ticket</button>
+   </div>
+   </div>
 </body>
 </html>

@@ -1,0 +1,18 @@
+body {background-color: #E0E0E0;}
+
+/*#commonPage{
+
+   align-items: center;
+   max-width: 100%;
+   width: 100%;
+}
+*/
+
+#ticketBox{
+   background-color: #C0C0C0;
+
+   float: center;
+   max-width: 240px;
+   padding: 40px;
+   border: 1px solid #808080;
+}
