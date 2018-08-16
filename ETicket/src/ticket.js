@@ -31,6 +31,8 @@ function buyTicket() {
       var contract = new web3.eth.Contract(contractAbi, contractAddr, {from: addrFrom});
       var newToken = contract.methods.createNewToken(usrName + usrMail).encodeABI();
 
+      console.log("newToken: " + newToken);
+
       web3.eth.getTransactionCount(addrFrom).then( txCount => {
 
          // формируем транзакцию
