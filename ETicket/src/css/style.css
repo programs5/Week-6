@@ -8,11 +8,23 @@ body {background-color: #E0E0E0;}
 }
 */
 
+#commonBox{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+
+   /*vertical-align:bottom;*/
+}
+
 #ticketBox{
    background-color: #C0C0C0;
-
-   float: center;
-   max-width: 240px;
-   padding: 40px;
+   width: 240px;
+   height: 170px;
+   padding: 30px;
    border: 1px solid #808080;
+}
+
+#total_tickets{
+   font-size:90%;
+   color:#656565;
 }

@@ -10,6 +10,7 @@ module.exports = {
       host: "127.0.0.1",
       port: 8545,
       network_id: "2"
+      , from: "0x5b853a724f6ac37e7a27d90a7c8f71db4b38fbd7"
     },
 
     rinkeby: {
