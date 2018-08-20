@@ -29,13 +29,13 @@ contract Ticket is ERC721Token  {
 
     //
    function getCountToken() public view returns (uint) {
-      uint totalValue = 0;
+        uint totalValue = 0;
 
-      for (uint i=0; i < addrBuyToken.length; i++) {
-         if(addrBuyToken[i] == msg.sender) {
-            totalValue += 1;
-         }
-      }
-      return totalValue;
+        for (uint i=0; i < addrBuyToken.length; i++) {
+            if(addrBuyToken[i] == msg.sender) {
+                totalValue += 1;
+            }
+        }
+        return totalValue;
    }
 }
