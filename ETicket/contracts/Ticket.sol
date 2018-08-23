@@ -1,5 +1,6 @@
 pragma solidity ^0.4.24;
 
+//import "../node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721Token.sol";
 import "openzeppelin-solidity/contracts/token/ERC721/ERC721Token.sol";
 
 contract Ticket is ERC721Token  {
